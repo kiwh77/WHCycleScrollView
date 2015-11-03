@@ -10,9 +10,9 @@
 
 @class WHCycleScrollView;
 typedef NS_ENUM(NSInteger, WHPageControlLocation ){
-    WHPageControlLocationLeft,      //left
-    WHPageControlLocationCenter,    // center
-    WHPageControlLocationRight,     //right
+    WHPageControlLocationLeft,
+    WHPageControlLocationCenter,
+    WHPageControlLocationRight,
 };
 
 typedef NS_ENUM(NSInteger, WHCycleDirection){
