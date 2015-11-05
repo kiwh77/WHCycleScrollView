@@ -63,7 +63,7 @@ typedef NS_ENUM(NSInteger, WHCycleDirection){
 @property (nonatomic, assign) WHCycleDirection cycleDirection;  //default is right
 
 /** 
- * TapGesture actino callBack
+ * TapGesture action callBack
  */
 @property (nullable, nonatomic, copy) void (^tapAction)(NSInteger index);
 
