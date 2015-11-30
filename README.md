@@ -1,4 +1,4 @@
-# WHCycleScrollView
+WHCycleScrollView
 
 	
 * 轮播循环滚动，可自定义循环时间，方向；
@@ -8,6 +8,10 @@
 	
 ---
 
+支持CocoaPod
+> pod 'WHCycleScrollView', '~>1.0.0'
+
+---
 
 一行代码实现自动轮播和pageControl  
 
