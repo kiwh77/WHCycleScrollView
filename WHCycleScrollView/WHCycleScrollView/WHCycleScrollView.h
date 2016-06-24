@@ -23,10 +23,10 @@ typedef NS_ENUM(NSInteger, WHCycleDirection){
 @protocol WHCycleScrollViewDelegate <NSObject>
 
 /** tap gesture action */
--(void)CycleScrollView:(nonnull WHCycleScrollView*)cycleScrollView didTapAtIndex:(NSInteger)index;
+-(void)CycleScrollView:(nullable WHCycleScrollView *)cycleScrollView didTapAtIndex:(NSInteger)index;
 
 /** LongPress gesture action */
--(void)CycleScrollView:(nonnull WHCycleScrollView *)cycleScrollView longPressAtIndex:(NSInteger)index;
+-(void)CycleScrollView:(nullable WHCycleScrollView *)cycleScrollView longPressAtIndex:(NSInteger)index;
 
 @end
 
@@ -35,7 +35,7 @@ typedef NS_ENUM(NSInteger, WHCycleDirection){
 /*
  * The data source of scrollView,element is NSURL or NSString(Local image name)
  */
-@property (nonnull, nonatomic, strong) NSArray * dataSource;
+@property (nullable, nonatomic, strong) NSArray * dataSource;
 
 /** If dataSource's element is NSURL , When loading image to show placeholder image */
 @property (nullable, nonatomic, strong) UIImage * placeholderImage;
