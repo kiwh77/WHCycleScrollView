@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WHCycleScrollView"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A cycle scrollView"
 
   s.description  = <<-DESC
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "kiwh77" => "308801737@qq.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/kiwh77/WHCycleScrollView.git", :tag => "1.0.0"}
+  s.source       = { :git => "https://github.com/kiwh77/WHCycleScrollView.git", :tag => "1.0.2"}
   s.source_files  =  "WHCycleScrollView/WHCycleScrollView/WHCycleScrollView.{h,m}"
   # s.exclude_files = "WHCycleScrollView/WHCycleScrollView/WHCycleScrollView.{h,m}"
 
