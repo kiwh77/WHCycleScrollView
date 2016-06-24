@@ -142,6 +142,7 @@ typedef enum : NSUInteger {
     NSArray * indexs = [self getTotalIndexs];
     for (int i=0; i<imageViews.count; i++) {
         UIImageView * iv = [imageViews objectAtIndex:i];
+        [iv setContentMode:UIViewContentModeScaleToFill];
         NSInteger index = [[indexs objectAtIndex:i] integerValue];
         id data = [_dataSource objectAtIndex:index];
         if ([data isKindOfClass:[NSURL class]]) {

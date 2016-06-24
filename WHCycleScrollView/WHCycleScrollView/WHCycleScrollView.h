@@ -51,7 +51,7 @@ typedef NS_ENUM(NSInteger, WHCycleDirection){
  * Properties of UIPageControl
  */
 @property (nullable, nonatomic, strong) UIColor * pageIndicatorTintColor;
-@property (nullable, nonatomic, strong) UIColor *currentPageIndicatorTintColor;
+@property (nullable, nonatomic, strong) UIColor * currentPageIndicatorTintColor;
 /**
  * If want auto cycle , Set YES.
  * Set cycle interval @see autoCycleInterval
@@ -72,8 +72,7 @@ typedef NS_ENUM(NSInteger, WHCycleDirection){
  */
 @property (nullable, nonatomic, copy) void (^longPressAction)(NSInteger index);
 
-@property (nonatomic, weak) id<WHCycleScrollViewDelegate> delegate;
-
+@property (nullable, nonatomic, weak) id<WHCycleScrollViewDelegate> delegate;
 
 +(nonnull instancetype)cycleScrollViewWithFrame:(CGRect)frame dataSource:(nonnull NSArray*)dataSource pageControl:(BOOL)yesOrNo autoCycle:(BOOL)yesOrNo;
 
